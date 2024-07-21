@@ -1,0 +1,232 @@
+[13:57:55] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: zip file is empty
+java.util.zip.ZipException: zip file is empty
+	at java.util.zip.ZipFile$Source.zerror(ZipFile.java:1781) ~[?:?]
+	at java.util.zip.ZipFile$Source.findEND(ZipFile.java:1562) ~[?:?]
+	at java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1657) ~[?:?]
+	at java.util.zip.ZipFile$Source.<init>(ZipFile.java:1495) ~[?:?]
+	at java.util.zip.ZipFile$Source.get(ZipFile.java:1458) ~[?:?]
+	at java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[?:?]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[?:?]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[?:?]
+	at java.util.jar.JarFile.<init>(JarFile.java:345) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:60) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:47) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:101) ~[paper-1.20.4.jar:git-Paper-497]
+	at net.minecraft.server.Main.main(Main.java:120) ~[paper-1.20.4.jar:git-Paper-497]
+	at org.bukkit.craftbukkit.Main.main(Main.java:326) ~[paper-1.20.4.jar:git-Paper-497]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:58:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:58:03] [ServerMain/INFO]: Loaded 1174 recipes
+[13:58:04] [ServerMain/INFO]: Loaded 1271 advancements
+[13:58:04] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[13:58:04] [Server thread/INFO]: Loading properties
+[13:58:04] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[13:58:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:58:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:58:06] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[13:58:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:58:06] [Server thread/INFO]: Default game type: SURVIVAL
+[13:58:06] [Server thread/INFO]: Generating keypair
+[13:58:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:58:07] [Server thread/INFO]: Using epoll channel type
+[13:58:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:58:07] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:58:07] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:58:13] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+[13:58:13] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[13:58:13] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[13:58:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:58:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:58:14] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-723
+[13:58:14] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[13:58:14] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.26.0
+[13:58:14] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.2.18
+[13:58:14] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[13:58:14] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[13:58:14] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.5-SNAPSHOT-641;b3905c2
+[13:58:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6431e961]
+[13:58:15] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.7.0
+[13:58:16] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v1.3
+[13:58:16] [Server thread/INFO]: [PL-Hide] Loading server plugin PL-Hide v1.5.22
+[13:58:16] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.1
+[13:58:16] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.1.1
+[13:58:16] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.4.3
+[13:58:16] [Server thread/INFO]: [InvSee++_Clear] Loading server plugin InvSeePlusPlus_Clear v0.26.0
+[13:58:16] [Server thread/INFO]: [InvSee++_Give] Loading server plugin InvSeePlusPlus_Give v0.26.0
+[13:58:16] [Server thread/INFO]: [JoinMessagePlus] Loading server plugin JoinMessagePlus v3.3
+[13:58:16] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[13:58:16] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
+[13:58:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:58:16] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-723
+[13:58:16] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.5-SNAPSHOT-641;b3905c2
+[13:58:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[13:58:16] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[13:58:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:58:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:58:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R3.PaperweightFaweAdapter as the Bukkit adapter
+[13:58:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:58:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:58:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:58:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:58:17] [Server thread/INFO]: Preparing level "world"
+[13:58:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:58:18] [Thread-10/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 214 build(s) out of date.
+You are running build 641, the latest version is build 855.
+Update at https://www.spigotmc.org/resources/13932/
+[13:58:18] [Server thread/INFO]: Time elapsed: 379 ms
+[13:58:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:58:19] [Server thread/INFO]: Time elapsed: 376 ms
+[13:58:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:58:19] [Server thread/INFO]: Time elapsed: 104 ms
+[13:58:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[13:58:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[13:58:19] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[13:58:20] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:58:20] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.26.0
+[13:58:20] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.18
+[13:58:20] [Server thread/INFO]: [SuperVanish] Hooked into PaperSpigot for server list ping support
+[13:58:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supervanish [6.2.18]
+[13:58:20] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[13:58:20] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[13:58:20] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:58:20] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:58:21] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:58:21] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:58:21] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[13:58:21] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[13:58:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[13:58:22] [Server thread/INFO]: [TAB] Enabled in 455ms
+[13:58:22] [Server thread/INFO]: [GSit] Enabling GSit v1.7.0
+[13:58:22] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[13:58:22] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[13:58:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.7.0]
+[13:58:22] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[13:58:22] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3*
+[13:58:22] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.22
+[13:58:22] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.1
+[13:58:22] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[13:58:22] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.1
+[13:58:22] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[13:58:22] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.1.1
+[13:58:22] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[13:58:22] [Thread-12/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Unknown or invalid block state string for input: "minecraft:grass". Is it an item?
+[13:58:22] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registering commands
+[13:58:22] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[13:58:22] [Server thread/INFO]: [VeinMiner] Registering events
+[13:58:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: veinminer [2.1.1]
+[13:58:22] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[13:58:22] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[13:58:22] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[13:58:22] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.4.3
+[13:58:22] [Thread-13/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[13:58:23] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.26.0
+[13:58:23] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.26.0
+[13:58:23] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
+[13:58:23] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
+[13:58:23] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
+[13:58:23] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
+[13:58:23] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
+[13:58:23] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
+[13:58:23] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[13:58:23] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[13:58:23] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[13:58:25] [pool-29-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[13:58:25] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[13:58:25] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[13:58:26] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[13:58:26] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[13:58:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:58:26] [Server thread/INFO]: Running delayed init tasks
+[13:58:26] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[13:58:26] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[13:58:26] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[13:58:26] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[13:58:26] [Server thread/INFO]: [SuperVanish] Your current version of SuperVanish is outdated - New version: '6.2.19'; Currently: '6.2.18'
+[13:58:26] [Server thread/INFO]: Done (22.488s)! For help, type "help"
+[13:58:26] [Server thread/INFO]: Timings Reset
+[13:58:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[13:58:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:WFarmland - tlz(1264494555542196225)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👋┃welcome(1264495014109778012)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rules(1264523448399429695)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔔┃announcments(1264495020380258305)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌍┃self-roles(1264495021902659725)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⭐┃starboard(1264495030446587906)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📊┃polls(1264495031646162974)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⚡┃boosts(1264495034225393718)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎁┃giveaways(1264495037983752235)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📅┃events(1264495040734953492)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:✨┃qotd(1264495042890829947)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📌┃fotd(1264495045197824042)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:chat(1264573871172882453)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬┃general(1264495049882992691)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📷┃media(1264495052625940521)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⏰┃counting(1264495056056750101)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:😂┃memes(1264495060620415008)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:😎┃leveling(1264520456036290591)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🤖┃commands(1264495065519231040)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👾┃owo-1(1264495068295856138)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧙┃owo-2(1264495069684170772)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎰┃casino(1264495070854254612)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎲┃minigames(1264495071856824351)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎼┃song-requests(1264495073027166258)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔎┃lfg(1264495074218348564)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📚┃information(1264495075686092882)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎓┃staff-news(1264495077082792040)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔏┃staff-chat(1264495080031649833)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔏┃staff-cmd(1264520112577449984)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔎┃logs(1264495081063317545)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📛┃mod-logs(1264495082590048297)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:➕┃invites(1264495083676504085)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📧┃community-news(1264495084842258453)
+[13:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🔏┃staff-cmd(1264520112577449984)
+[13:58:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling SuperVanish hook
+[13:58:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[13:58:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling voice module
+[13:58:29] [DiscordSRV - Channel Updater/ERROR]: [DiscordSRV] ChannelUpdater entry 1264574794997694474 has an invalid id
+[13:58:29] [DiscordSRV - Channel Updater/ERROR]: [DiscordSRV] ChannelUpdater entry 1264574812563574967 has an invalid id
+[13:58:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.27.0]
+[13:58:29] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[14:00:07] [User Authenticator #0/INFO]: UUID of player zltw is 0c7c16c5-cda4-31a0-be94-a2e89683b88f
+[14:00:08] [Server thread/INFO]: [+] zltw
+[14:00:08] [Server thread/INFO]: zltw[/127.0.0.1:55362] logged in with entity id 128 at ([world]-4.5, 99.0, -7.5)
+[14:00:53] [Server thread/WARN]: zltw was kicked due to keepalive timeout!
+[14:00:53] [Server thread/INFO]: zltw lost connection: Timed out
+[14:00:53] [Server thread/INFO]: [-] zltw
+[14:03:19] [User Authenticator #1/INFO]: UUID of player ddbruhlmao is bf9562e8-3f68-34dc-9317-37e65d91dd5a
+[14:03:20] [Server thread/INFO]: [+] ddbruhlmao
+[14:03:20] [Server thread/INFO]: ddbruhlmao[/127.0.0.1:47690] logged in with entity id 281 at ([world]-29.015858455445922, 63.0, -176.62460391507548)
+[14:05:20] [Server thread/INFO]: ddbruhlmao lost connection: Login timed out!
+[14:05:20] [Server thread/INFO]: [-] ddbruhlmao
+[14:16:26] [User Authenticator #2/INFO]: UUID of player ddbruhlmao is bf9562e8-3f68-34dc-9317-37e65d91dd5a
+[14:16:26] [Server thread/INFO]: [+] ddbruhlmao
+[14:16:26] [Server thread/INFO]: ddbruhlmao[/127.0.0.1:46336] logged in with entity id 569 at ([world]-29.015858455445922, 63.0, -176.62460391507548)
+[14:17:52] [Server thread/INFO]: ddbruhlmao lost connection: Disconnected
+[14:17:52] [Server thread/INFO]: [-] ddbruhlmao

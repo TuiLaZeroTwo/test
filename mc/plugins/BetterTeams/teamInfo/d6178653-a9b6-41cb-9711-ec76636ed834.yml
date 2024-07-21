@@ -1,0 +1,152 @@
+name: HungSoCute
+description: ''
+open: false
+pvp: false
+home: world:-2658.707415889682:64.0:2570.6362703937107:82.75515:20.164165
+color: '9'
+chests: []
+players:
+- 8d8478e8-c5f0-3540-940e-faa2e78a558b,OWNER
+- 97b9dc49-774e-3cd7-a389-078365340669,DEFAULT
+level: 1
+tag: ''
+echest:
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SAND
+    amount: 16
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 33
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: ROTTEN_FLESH
+    amount: 2
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BIRCH_LOG
+    amount: 20
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SAND
+    amount: 64
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BOW
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: RAW_GOLD
+    amount: 6
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BIRCH_PLANKS
+    amount: 64
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:water
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: WITHER_SKELETON_SKULL
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DRAGON_HEAD
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DRAGON_EGG
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 1
+      Damage: 103
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: BOW
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: CARROT
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: MOSSY_STONE_BRICKS
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERRACK
+    amount: 63
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: GOLD_NUGGET
+    amount: 30
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: EMERALD
+    amount: 12
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 14
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: DIAMOND
+    amount: 40
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERITE_INGOT
+    amount: 11
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: SHULKER_SHELL
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: NETHERITE_SCRAP
+    amount: 3
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: FIREWORK_ROCKET
+    amount: 21
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+score: 0
+warps:
+- village;world:-3016.979113217558:63.0:5997.072875886906:15.63091:16.772253;123
+- theend;world_the_end:-1255.2829058492773:57.0:-1205.2584202119622:-161.65681:74.6165
